@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="logo-title logo-desc">
+  <title id="logo-title">Joey's AI Skills</title>
+  <desc id="logo-desc">A cartoon kangaroo joey on a sunset-coloured badge, surrounded by sparkles.</desc>
+
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB45C"/>
+      <stop offset="0.52" stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="fur" gradientUnits="userSpaceOnUse" x1="256" y1="190" x2="256" y2="410">
+      <stop offset="0" stop-color="#F3B98C"/>
+      <stop offset="1" stop-color="#D98C5F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#badge)"/>
+  <circle cx="256" cy="288" r="186" fill="#FFFFFF" opacity="0.12"/>
+
+  <!-- sparkles -->
+  <g fill="#FFF4C9">
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(92 120) scale(1.15)"/>
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(424 152) scale(0.8)"/>
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(410 404) scale(1.05)"/>
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(98 392) scale(0.7)"/>
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(64 262) scale(0.5)"/>
+    <path d="M0 -24 Q4 -4 24 0 Q4 4 0 24 Q-4 4 -24 0 Q-4 -4 0 -24 Z" transform="translate(450 296) scale(0.55)"/>
+  </g>
+
+  <!-- ears -->
+  <g transform="rotate(-20 198 180)">
+    <ellipse cx="198" cy="180" rx="33" ry="78" fill="url(#fur)"/>
+    <ellipse cx="198" cy="188" rx="16" ry="56" fill="#F8A79F"/>
+  </g>
+  <g transform="rotate(20 314 180)">
+    <ellipse cx="314" cy="180" rx="33" ry="78" fill="url(#fur)"/>
+    <ellipse cx="314" cy="188" rx="16" ry="56" fill="#F8A79F"/>
+  </g>
+
+  <!-- head and muzzle -->
+  <ellipse cx="256" cy="292" rx="106" ry="94" fill="url(#fur)"/>
+  <ellipse cx="256" cy="348" rx="64" ry="56" fill="url(#fur)"/>
+  <ellipse cx="256" cy="356" rx="52" ry="44" fill="#FBD9BF"/>
+
+  <!-- neural-net emblem on the forehead -->
+  <g stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M230 240 L256 214 L282 240"/>
+    <path d="M230 240 L282 240"/>
+  </g>
+  <g fill="#FFFFFF" opacity="0.9">
+    <circle cx="256" cy="212" r="8"/>
+    <circle cx="230" cy="240" r="6"/>
+    <circle cx="282" cy="240" r="6"/>
+  </g>
+
+  <!-- blush -->
+  <g fill="#FF7A8A" opacity="0.35">
+    <ellipse cx="180" cy="318" rx="21" ry="12"/>
+    <ellipse cx="332" cy="318" rx="21" ry="12"/>
+  </g>
+
+  <!-- eyes -->
+  <ellipse cx="206" cy="278" rx="18" ry="19" fill="#3A2B35"/>
+  <ellipse cx="306" cy="278" rx="18" ry="19" fill="#3A2B35"/>
+  <circle cx="200" cy="272" r="6" fill="#FFFFFF"/>
+  <circle cx="300" cy="272" r="6" fill="#FFFFFF"/>
+
+  <!-- nose and mouth -->
+  <ellipse cx="256" cy="334" rx="25" ry="17" fill="#3A2B35"/>
+  <ellipse cx="248" cy="329" rx="7" ry="4" fill="#FFFFFF" opacity="0.5"/>
+  <g stroke="#3A2B35" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M256 351 L256 362"/>
+    <path d="M256 362 Q249 373 238 368"/>
+    <path d="M256 362 Q263 373 274 368"/>
+  </g>
+</svg>
